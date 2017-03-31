@@ -36,3 +36,13 @@ switch(example){
 for (i=1; i<=5; i++) {
 	document.write(example+i + "<br />");
 }
+
+while(example > 100){
+	document.write(example + "<br />");
+	example--
+}
+
+do {
+	document.write(example + "<br />");
+	example++
+} while(example <= 103)
