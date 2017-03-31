@@ -6,7 +6,12 @@ var example = 100;
 
 var print = "This is my first ever JavaScript!";
 
-alert(print); // creates an alert box
+if(example != Null && print != Null){
+	alert(print); // creates an alert box
+}
+else {
+	document.write("Nards");
+}
 
 document.write(example);
 
