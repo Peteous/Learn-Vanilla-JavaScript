@@ -34,7 +34,14 @@ switch(example){
 }
 
 for (i=1; i<=5; i++) {
-	document.write(example+i + "<br />");
+	if(i == 4){
+		continue;
+	} else if(i == 5){
+		break;
+	}
+	else{
+		document.write(example+i + "<br />");
+	}
 }
 
 while(example > 100){
