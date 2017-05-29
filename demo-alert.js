@@ -2,7 +2,7 @@
 I am in chapter 1 of a learn Javascript course.
 This is very rudimentary code.
 */
-var example = 100;
+var example = (int) prompt("Please enter a number");
 
 var print = "This is my first ever JavaScript!";
 
