@@ -54,8 +54,8 @@ do {
 	example++
 } while(example <= 103)
 
-function dialogue(){
-	alert("Functioned");
+function dialogue(message){
+	alert((String)message);
 }
 
-dialogue();
+dialogue("Functioned");
