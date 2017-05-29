@@ -2,7 +2,20 @@
 I am in chapter 1 of a learn Javascript course.
 This is very rudimentary code.
 */
-var example = (int) prompt("Please enter a number");
+function setExample(){
+	var example = (int) prompt("Please enter a number");
+	var result = confirm("are you sure this is the number you want to run?");
+	if (result == true) {
+		alert("Alright, running.");
+	}
+	else {
+		alert("Fair enough. Retry now.");
+		setExample();
+	}
+	return example;
+}
+
+example = setExample();
 
 var print = "This is my first ever JavaScript!";
 
