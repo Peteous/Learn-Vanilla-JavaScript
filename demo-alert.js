@@ -53,3 +53,9 @@ do {
 	document.write(example + "<br />");
 	example++
 } while(example <= 103)
+
+function dialogue(){
+	alert("Functioned");
+}
+
+dialogue();
