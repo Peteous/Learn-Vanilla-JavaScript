@@ -1,5 +1,5 @@
 /*
-I am in chapter 1 of a learn Javascript course.
+I am in chapter 2 of a learn Javascript course.
 This is very rudimentary code.
 */
 function setExample(){
