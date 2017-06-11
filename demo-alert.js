@@ -14,6 +14,7 @@ function setExample(){
 	}
 	return example;
 }
+var date = new Date();
 
 example = setExample();
 
